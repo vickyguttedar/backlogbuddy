@@ -1,0 +1,148 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #121212;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .logo {
+    font-size: 1.5em;
+    color: #f05454;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header nav ul li .register {
+    background-color: #f05454;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    color: #fff;
+}
+
+.hero h1 span {
+    color: #f05454;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #aaa;
+}
+
+.hero button {
+    background-color: #f05454;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.service {
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.service h3 {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.service ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.service ul li {
+    margin-bottom: 10px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #333;
+}
+
+.stats div {
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #333;
+}
+
+.stats div {
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+}
+.testimonials {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212;
+    color: #aaa;
+}
